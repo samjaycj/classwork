@@ -5,7 +5,7 @@ try:
     denominator = float(num_denominator)
 
     results = numerator/denominator
-
+    
     print(f"You entered: Numerator {numerator} & Denominator {denominator}")
     print(f"The result is: {results}")
 
