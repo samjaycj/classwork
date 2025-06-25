@@ -38,3 +38,15 @@ if score_dic:
 else:
     print("Cannot find the highest score!")
     
+high_achievers = {}
+for name, score in score_dic.items():
+    if score>= 90:
+        high_achievers[name]=score
+        
+print("\n")
+print("---- High Achievers (Score 90 above) ------")
+if high_achievers:
+    for name, score in high_achievers.items():
+        print(f"{name}: {score}")
+else:
+    print("No students scored more than 90")
